@@ -4,4 +4,5 @@ using UnityEngine;
 public class GameProperties : ScriptableObject
 {
     public bool showDebug;
+    public Connection connectionPrefab;
 }

@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 654801340fcb3774a916fee690981e9a, type: 3}
-  m_Name: Test
+  m_Script: {fileID: 11500000, guid: f1411c4cd8e1e1c4f8e624f69b6e0d83, type: 3}
+  m_Name: New Dialogue
   m_EditorClassIdentifier: 
-  showDebug: 1
-  connectionPrefab: {fileID: 2599619950344399233, guid: c54a8ad0e82145243b2334abae23764f, type: 3}
+  frames:
+  - activePortraitIsLeft: 1
+    leftPortrait: {fileID: 0}
+    rightPortrait: {fileID: 0}
+    speech: 
