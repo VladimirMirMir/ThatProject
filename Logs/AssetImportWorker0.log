@@ -882,3 +882,91 @@ System memory in use after: 68.8 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
 Total: 2.340700 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.095100 ms MarkObjects: 2.002300 ms  DeleteObjects: 0.053000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 662.856342 seconds.
+  path: Assets/_Game/Prefabs/Maps
+  artifactKey: Guid(413e8f76da1aacc4bad47dc87182bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Maps using Guid(413e8f76da1aacc4bad47dc87182bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bf3d62c93026d832dbb89da891aad9') in 0.011819 seconds
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.239052 seconds.
+  path: Assets/_Game/Prefabs/Maps/[MAP].prefab
+  artifactKey: Guid(5f32278a2ff51544faea8da1c899a94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Maps/[MAP].prefab using Guid(5f32278a2ff51544faea8da1c899a94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c32a9cedc1b2e437408fba6b47844') in 0.077617 seconds
+  Import took 0.080546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.736516 seconds.
+  path: Assets/_Game/Prefabs/Maps/[MAP_00].prefab
+  artifactKey: Guid(5f32278a2ff51544faea8da1c899a94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Maps/[MAP_00].prefab using Guid(5f32278a2ff51544faea8da1c899a94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b46a928afee7036a3f7bf68ef87768') in 0.017256 seconds
+  Import took 0.021121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.512719 seconds.
+  path: Assets/_Game/Prefabs/Nodes/Dialogue Node.prefab
+  artifactKey: Guid(0340edc92a44f89489f835b60cdcc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Nodes/Dialogue Node.prefab using Guid(0340edc92a44f89489f835b60cdcc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357ee061b6ea4ff632f8f4b6aadeb06d') in 0.016585 seconds
+  Import took 0.020255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.346335 seconds.
+  path: Assets/_Game/Prefabs/Nodes/Base Node.prefab
+  artifactKey: Guid(6fe8bbde9dcb8a94880c8f2452c717d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Nodes/Base Node.prefab using Guid(6fe8bbde9dcb8a94880c8f2452c717d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90797939666803501a828f06f5e8401') in 0.011504 seconds
+  Import took 0.015937 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 2.548800 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.170800 ms  DeleteObjects: 0.075700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6996.788994 seconds.
+  path: Assets/_Game/ScriptableObjects/New Dialogue.asset
+  artifactKey: Guid(0b014c06b2fb760448ea3193072274ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/New Dialogue.asset using Guid(0b014c06b2fb760448ea3193072274ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678be9ac76908b2360de621a12d2a79b') in 0.111471 seconds
+  Import took 0.179128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 2.920900 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.104800 ms MarkObjects: 2.510800 ms  DeleteObjects: 0.097900 ms)
+
