@@ -4,23 +4,16 @@ public class BattleNode : Node
 {
     [SerializeField] private BattleData _battleData;
 
-    public override void OnGetInvisible()
-    {
-        //vfx
-    }
-
-    public override void OnGetVisible()
-    {
-        //vfx
-    }
-
     public override void OnPlayerEnter()
     {
-        GameManager.BeginBattle(_battleData);
+        if (GameManager.Properties.showDebug)
+            print("Battle Event Raised!");
+        NodesManager.CurrentNode = this;
     }
 
     public override void OnPlayerExit()
     {
-        //vfx
+        if (GameManager.Properties.showDebug)
+            print("Player 've leaved BattleNode!");
     }
 }

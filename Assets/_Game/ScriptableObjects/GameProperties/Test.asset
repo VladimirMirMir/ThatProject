@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showDebug: 1
   connectionPrefab: {fileID: 2599619950344399233, guid: c54a8ad0e82145243b2334abae23764f, type: 3}
+  playerPawnPrefab: {fileID: 1542061137171543957, guid: 40b372fc3e2266348ad9ae3e5472d123, type: 3}
+  playerPawnSpeed: 5
+  camSpeed: 5

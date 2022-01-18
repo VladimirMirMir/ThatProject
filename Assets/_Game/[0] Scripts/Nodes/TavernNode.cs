@@ -2,23 +2,16 @@
 
 public class TavernNode : Node
 {
-    public override void OnGetInvisible()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public override void OnGetVisible()
-    {
-        throw new System.NotImplementedException();
-    }
-
     public override void OnPlayerEnter()
     {
-        throw new System.NotImplementedException();
+        if (GameManager.Properties.showDebug)
+            print("Tavern Event Raised!");
+        NodesManager.CurrentNode = this;
     }
 
     public override void OnPlayerExit()
     {
-        throw new System.NotImplementedException();
+        if (GameManager.Properties.showDebug)
+            print("Player 've leaved TaverNode!");
     }
 }

@@ -37,7 +37,7 @@ public abstract class Node : MonoBehaviour
             {
                 Quaternion rot = new Quaternion();
                 rot.eulerAngles = new Vector3(90, 0, 0);
-                var connectionPrefab = Instantiate(GameManager.Properties.connectionPrefab, transform.position, rot);
+                var connectionPrefab = Instantiate(GameManager.Properties.connectionPrefab, transform.position, rot, NodesManager.ConnectionsParent);
                 connectionPrefab.Init(transform.position, node.transform.position);
                 if (!_establishedConnection.ContainsKey(node))
                     _establishedConnection.Add(node, true);
@@ -54,11 +54,21 @@ public abstract class Node : MonoBehaviour
 
     public void OnMouseDown()
     {
-        
+        NodesManager.SelectNode(this);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            OnPlayerEnter();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            OnPlayerExit();
     }
 
     public abstract void OnPlayerEnter();
     public abstract void OnPlayerExit();
-    public abstract void OnGetVisible();
-    public abstract void OnGetInvisible();
 }

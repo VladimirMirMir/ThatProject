@@ -4,16 +4,19 @@ using System.Collections;
 public class CameraController : MonoBehaviour
 {
     private static CameraController s_instance;
+    private static Transform s_transform;
 
+    [SerializeField] private Vector3 _offset;
+    
     private CameraRails _rail;
     private Transform _target;
-    private Vector3 _offset;
     private bool _onRails = false;
     private float _timer = 0;
 
     private void Awake()
     {
         s_instance = this;
+        s_transform = transform;
     }
 
     private void LateUpdate()
@@ -24,7 +27,8 @@ public class CameraController : MonoBehaviour
 
     private static void FollowTarget()
     {
-
+        if (s_instance._target != null)
+            s_transform.position = Vector3.MoveTowards(s_transform.position, s_instance._target.position + s_instance._offset, Time.deltaTime * GameManager.Properties.camSpeed);
     }
 
     private static void FollowRail(float step)

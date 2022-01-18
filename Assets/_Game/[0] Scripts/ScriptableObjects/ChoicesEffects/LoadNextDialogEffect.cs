@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Next Dialog Effect", menuName = "ScriptableObject/DialogEffects/Next Dialog Effect")]
+[CreateAssetMenu(fileName = "New Next Dialog Effect", menuName = "ScriptableObject/Dialogue Data/Dialogue Effects/Next Dialog Effect")]
 public class LoadNextDialogEffect : ChoiceEffect
 {
     public DialogueData nextDialogueData;
