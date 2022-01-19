@@ -8,11 +8,6 @@ public class GameManager : MonoBehaviour
 
     public static GameProperties Properties => s_instance._gameProperties;
 
-    public static void BeginBattle(BattleData data)
-    {
-
-    }
-
     private void Awake()
     {
         s_instance = this;

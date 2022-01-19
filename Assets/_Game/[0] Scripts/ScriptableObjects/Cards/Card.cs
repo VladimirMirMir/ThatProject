@@ -3,7 +3,7 @@
 public abstract class Card : ScriptableObject
 {
     public string cardName;
-    public string cardLongDescription;
+    [Multiline] public string cardLongDescription;
     public string cardJokeDescription;
     public Sprite cardImage;
 

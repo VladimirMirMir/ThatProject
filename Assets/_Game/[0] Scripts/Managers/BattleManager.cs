@@ -5,13 +5,16 @@ public class BattleManager : MonoBehaviour
 {
     private static BattleManager s_instance;
 
-    private static List<ITargetable> s_targets = new List<ITargetable>();
-
     public static ITargetable Caster { get; set; }
-    public static List<ITargetable> Targets => s_targets;
+    public static List<ITargetable> Targets { get; set; }
 
     private void Awake()
     {
         s_instance = this;
+    }
+
+    public static void BeginBattle(BattleData data)
+    {
+
     }
 }

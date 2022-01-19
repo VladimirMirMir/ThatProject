@@ -9,4 +9,5 @@ public class CreatureStats
     public List<DamageType> vulnerabilities = new List<DamageType>();
     public List<DamageType> resistances = new List<DamageType>();
     public List<DamageType> immunities = new List<DamageType>();
+    public List<AbilityData> abilities = new List<AbilityData>();
 }

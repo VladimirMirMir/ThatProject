@@ -12,36 +12,10 @@ public class Classic : Targetting
 
     public override List<ITargetable> GetTargets()
     {
-        if (range <= 0)
-        {
-            var result = new List<ITargetable>();
-            result.Add(BattleManager.Caster);
-            return result;
-        }
+        LightUpCellsInRange(range);
+        if (_localTargets.Count > 0)
+            return SelectSpecific(_localTargets);
         else
-        {
-            LightUpCellsInRange(range);
-            if (_localTargets.Count > 0)
-                return SelectSpecific(_localTargets);
-            else
-                return null;
-        }
-    }
-
-    protected override List<ITargetable> SelectSpecific(List<ITargetable> targets)
-    {
-        if (specificCreatureTypes.Count > 0)
-        {
-            var selected = new List<ITargetable>(targets);
-            foreach (var target in selected)
-                if (target is Creature)
-                    if (!specificCreatureTypes.ContainsTypeWithID(((Creature)target).CreatureType))
-                        selected.Remove(target);
-            return selected;
-        }
-        else
-        {
-            return targets;
-        }
+            return null;
     }
 }
