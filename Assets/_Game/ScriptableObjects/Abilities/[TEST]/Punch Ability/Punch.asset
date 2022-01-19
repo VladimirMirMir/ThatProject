@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f929608242e00094189c0d7903ee5607, type: 3}
   m_Name: Punch
   m_EditorClassIdentifier: 
-  ability_id: 
+  ability_id: punch
   cooldown: 0
-  range: 1
-  effects: []
+  effects:
+  - {fileID: 11400000, guid: edc5cd648f910eb49a5cf8511e45f6f8, type: 2}

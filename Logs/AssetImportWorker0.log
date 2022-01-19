@@ -882,3 +882,4 @@ Received Import Request.
 Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/[TEST]/Wolf/Abilities/Second/Second Wolf Ability.asset using Guid(c477a348fcd678142a5095ec52db9a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f962344a780453f2a2ee9521421f6a') in 0.003352 seconds
   Import took 0.006191 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7796e330ae9696c4eb9b08e08f07b174, type: 3}
   m_Name: Bite Heal
   m_EditorClassIdentifier: 
-  targetting: {fileID: 0}
+  targetting: {fileID: 11400000, guid: d6c71bda66f36b04799547c57b7ad2c4, type: 2}
   healData:
-    healAmount: 0
+    healAmount: 100

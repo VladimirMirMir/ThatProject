@@ -12,16 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684f7802377a2714ab1a090e97d32660, type: 3}
   m_Name: Wolf
   m_EditorClassIdentifier: 
-  cardName: 
-  cardLongDescription: 
-  cardJokeDescription: 
+  cardName: Wolf
+  cardLongDescription: 'AUAUUAUAUAUAU
+
+    auauaua
+
+    auauauauauauau'
+  cardJokeDescription: ukusit za bochok
   cardImage: {fileID: 0}
   creatureStats:
-    healthPointsMaximum: 0
-    movementPoints: 0
-    creatureType: {fileID: 0}
-    vulnerabilities: []
-    resistances: []
+    healthPointsMaximum: 100500
+    movementPoints: 100
+    creatureType: {fileID: 11400000, guid: 788adb23a7a83884fa22a1d2c94e3117, type: 2}
+    vulnerabilities:
+    - {fileID: 11400000, guid: 9a9d0bd3174eec14c89de2b4e1ef9775, type: 2}
+    resistances:
+    - {fileID: 11400000, guid: 19f6da0456cdb794cb9d4d9fa7c52fcd, type: 2}
     immunities: []
-    abilities: []
+    abilities:
+    - {fileID: 11400000, guid: 7813ca6528795ca48833ae4225c125af, type: 2}
   prefab: {fileID: 0}
