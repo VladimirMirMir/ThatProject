@@ -9,8 +9,8 @@ public class DamageEffect : AbilityEffect
     {
         BattleManager.Targets = targetting.GetTargets();
         foreach (var target in BattleManager.Targets)
-            if (target is IDamageable)
-                ((IDamageable)target).TakeDamage(damage);
+            if (target is IDamageable damageable)
+                damageable.TakeDamage(damage);
     }
 
     public DamageEffect()
