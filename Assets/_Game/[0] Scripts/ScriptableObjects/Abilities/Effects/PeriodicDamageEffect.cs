@@ -12,11 +12,17 @@ public class PeriodicDamageEffect : AbilityEffect
     {
         var go = new GameObject("PeriodicDamageEffect");
         var timedEffect = go.AddComponent<TimedEffect>();
-        timedEffect.Init(duration, targetting.GetTargets(), trigger, (List<ITargetable> targets) =>
-        {
-            foreach (var target in targets)
-                if (target is IDamageable damageable)
-                    damageable.TakeDamage(damage);
-        }, (List<ITargetable> targets) => { });
+        timedEffect.Init(
+            duration, 
+            targetting.GetTargets(), 
+            trigger, 
+            (List<ITargetable> targets) => { },
+            (List<ITargetable> targets) =>
+            {
+                foreach (var target in targets)
+                    if (target is IDamageable damageable)
+                        damageable.TakeDamage(damage);
+            }, 
+            (List<ITargetable> targets) => { });
     }
 }

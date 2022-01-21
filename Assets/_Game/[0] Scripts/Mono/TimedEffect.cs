@@ -7,10 +7,11 @@ public class TimedEffect : MonoBehaviour, IGameEventListener
     private int _duration;
     private List<ITargetable> _targets = new List<ITargetable>();
     private GameEvent _trigger;
+    private Action<List<ITargetable>> _onCast;
     private Action<List<ITargetable>> _onEventRaised;
     private Action<List<ITargetable>> _onDurationEnded;
 
-    public void Init(int duration, List<ITargetable> targets, GameEvent trigger, Action<List<ITargetable>> effect, Action<List<ITargetable>> postEffect)
+    public void Init(int duration, List<ITargetable> targets, GameEvent trigger, Action<List<ITargetable>> onCast, Action<List<ITargetable>> effect, Action<List<ITargetable>> postEffect)
     {
         _duration = duration;
         _targets = targets;
@@ -18,6 +19,8 @@ public class TimedEffect : MonoBehaviour, IGameEventListener
         _onEventRaised = effect;
         _onDurationEnded = postEffect;
         _trigger.Register(this);
+        _onCast = onCast;
+        _onCast?.Invoke(_targets);
     }
 
     public void OnEventRaised()

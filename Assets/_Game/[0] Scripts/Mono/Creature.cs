@@ -52,4 +52,14 @@ public class Creature : MonoBehaviour, ITargetable
                 _creatureStats.immunities.Remove(type);
         }
     }
+
+    public void ToggleStunedTo(bool toggle)
+    {
+        //TO DO
+    }
+
+    public void ToggleEntangledTo(bool toggle)
+    {
+        //TO DO
+    }
 }

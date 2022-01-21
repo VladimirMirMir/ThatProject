@@ -12,17 +12,22 @@ public class TimedImmuneEffect : AbilityEffect
     {
         var go = new GameObject("TimedImmuneEffect");
         var timedEffect = go.AddComponent<TimedEffect>();
-        timedEffect.Init(duration, targetting.GetTargets(), trigger, (List<ITargetable> targets) =>
-        {
-            foreach (var target in targets)
-                if (target is Creature creature)
-                    creature.ToggleImmuneTo(type, true);
-        },
-        (List<ITargetable> targets) =>
-        {
-            foreach (var target in targets)
-                if (target is Creature creature)
-                    creature.ToggleImmuneTo(type, false);
-        });
+        timedEffect.Init(
+            duration, 
+            targetting.GetTargets(),
+            trigger, 
+            (List<ITargetable> targets) => { },
+            (List<ITargetable> targets) =>
+            {
+                foreach (var target in targets)
+                    if (target is Creature creature)
+                        creature.ToggleImmuneTo(type, true);
+            },
+            (List<ITargetable> targets) =>
+            {
+                foreach (var target in targets)
+                    if (target is Creature creature)
+                        creature.ToggleImmuneTo(type, false);
+            });
     }
 }
