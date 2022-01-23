@@ -8,6 +8,7 @@ public class Classic : Targetting
     {
         _localTargets = new List<ITargetable>();
         //BattleManager.GetTargetsFromCasterIn(range);
+        //if (onlyEnemies) { ... }
     }
 
     public override List<ITargetable> GetTargets()

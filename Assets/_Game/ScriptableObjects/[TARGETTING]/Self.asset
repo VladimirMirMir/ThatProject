@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 0
   targetsCount: 1
+  onlyEnemies: 0
   specificCreatureTypes: []
