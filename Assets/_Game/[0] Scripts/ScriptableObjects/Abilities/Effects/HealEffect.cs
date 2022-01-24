@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Heal Effect", menuName = "ScriptableObject/Ability Effects/Heal")]
+[CreateAssetMenu(fileName = "New Heal Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Heal")]
 public class HealEffect : AbilityEffect
 {
     public HealData healData;

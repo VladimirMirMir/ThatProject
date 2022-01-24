@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Periodic Damage Effect", menuName = "ScriptableObject/Ability Effects/Periodic Damage Effect")]
+[CreateAssetMenu(fileName = "New Periodic Damage Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Periodic Damage Effect")]
 public class PeriodicDamageEffect : AbilityEffect
 {
     public DamageData damage;

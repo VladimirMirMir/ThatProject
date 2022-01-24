@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Stun Effect", menuName = "ScriptableObject/Ability Effects/Stun Effect")]
+[CreateAssetMenu(fileName = "New Stun Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Stun Effect")]
 public class StunEffect : AbilityEffect
 {
     public GameEvent trigger;

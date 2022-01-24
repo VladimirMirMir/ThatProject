@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Entangle Effect", menuName = "ScriptableObject/Ability Effects/Entangle Effect")]
+[CreateAssetMenu(fileName = "New Entangle Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Entangle Effect")]
 public class EntangleEffect : AbilityEffect
 {
     public GameEvent trigger;

@@ -15,11 +15,11 @@ D:/UnityProjects/GIT/ThatProject/ThatProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65017
+51658
 Successfully changed project path to: D:/UnityProjects/GIT/ThatProject/ThatProject
 D:/UnityProjects/GIT/ThatProject/ThatProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,207 +35,839 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003499 seconds.
+Registered in 0.003483 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.371 seconds
+- Completed reload, in  3.461 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006669 seconds.
+Registered in 0.006372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.143 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1446 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.1 MB.
-System memory in use after: 66.2 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 2.328000 ms (FindLiveObjects: 0.195900 ms CreateObjectMapping: 0.101200 ms MarkObjects: 1.949200 ms  DeleteObjects: 0.080700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/Heroes
-  artifactKey: Guid(622d4ec79ba100e42aa9c3d319f890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Heroes using Guid(622d4ec79ba100e42aa9c3d319f890b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0eef968fadb94b71644e3b713863d5') in 0.037774 seconds
-  Import took 0.339961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.540283 seconds.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/Hero.cs
-  artifactKey: Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/Hero.cs using Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d5c077d2c8dbdf2014e1a419960fef') in 0.256371 seconds
-  Import took 0.512744 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006478 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.1 MB.
-System memory in use after: 66.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 1.918500 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.663700 ms  DeleteObjects: 0.060600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007001 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.1 MB.
-System memory in use after: 66.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 1.936900 ms (FindLiveObjects: 0.155000 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.643000 ms  DeleteObjects: 0.085500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 795.877917 seconds.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/HeroData.cs
-  artifactKey: Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/HeroData.cs using Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8387bbb485d947b127fe56c92d0d76') in 0.010968 seconds
-  Import took 0.028446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.478438 seconds.
-  path: Assets/_Game/[0] Scripts/WatchTower.asmdef
-  artifactKey: Guid(261a90c509979934fb822acaa32e2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/WatchTower.asmdef using Guid(261a90c509979934fb822acaa32e2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d66ff7226f2b4ffc7ccb87d06e0d6d') in 0.146849 seconds
-  Import took 0.240492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010985 seconds.
-  path: Assets/_Game/[0] Scripts/WatchTower.asmdef
-  artifactKey: Guid(261a90c509979934fb822acaa32e2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/WatchTower.asmdef using Guid(261a90c509979934fb822acaa32e2aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d66ff7226f2b4ffc7ccb87d06e0d6d') in 0.004796 seconds
-  Import took 0.015951 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1447 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 66.2 MB.
 System memory in use after: 66.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 1.944000 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.692500 ms  DeleteObjects: 0.057400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 1.932700 ms (FindLiveObjects: 0.154500 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.640300 ms  DeleteObjects: 0.082300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Game/Models/Bases.fbx
+  artifactKey: Guid(fa805d4a225460840a503101bb4f485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Models/Bases.fbx using Guid(fa805d4a225460840a503101bb4f485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f057cb066be755e432476499a3f6d8a') in 0.257223 seconds
+  Import took 0.259756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.499462 seconds.
+  path: Assets/_Game/Prefabs/Creatures
+  artifactKey: Guid(52936c24e77cdbc49b854ce72468476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Creatures using Guid(52936c24e77cdbc49b854ce72468476d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec3d33d36daf1eba8ed763ce06a9d35') in 0.008603 seconds
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.810157 seconds.
+  path: Assets/_Game/Prefabs/Creatures/Hog.prefab
+  artifactKey: Guid(d82ece8da09f56f488cdfccdaa0a5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/Prefabs/Creatures/Hog.prefab using Guid(d82ece8da09f56f488cdfccdaa0a5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bfd6e1b97ca78dcc9352a6aa77b3e0') in 0.026760 seconds
+  Import took 0.029805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.548969 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog
+  artifactKey: Guid(3355125184fa15e46a61aabf4a202900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog using Guid(3355125184fa15e46a61aabf4a202900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21371e1baeb23f66523b9b2d09893517') in 0.004149 seconds
+  Import took 0.007106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.177291 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Hog.asset
+  artifactKey: Guid(167467b45a29dc641bf7486588f0423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Hog.asset using Guid(167467b45a29dc641bf7486588f0423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c729f9f2afe2992e2538cddb1f8c0a4') in 0.006731 seconds
+  Import took 0.009446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.987117 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities
+  artifactKey: Guid(468d477e3996aff4ab8c2364800f236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities using Guid(468d477e3996aff4ab8c2364800f236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30696ef3c9fdf172a69cbede88034f26') in 0.011633 seconds
+  Import took 0.014450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.018698 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Hog Tackle.asset
+  artifactKey: Guid(df50d04ae9675e0408adb03286900d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Hog Tackle.asset using Guid(df50d04ae9675e0408adb03286900d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b677c15dbaf2c0a643786dd35b6afac6') in 0.008751 seconds
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.351607 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Effects
+  artifactKey: Guid(b1f6070a114675440a92d5f51b256ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Effects using Guid(b1f6070a114675440a92d5f51b256ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c991f872b9ea01db672a5a05fb97b0e') in 0.012919 seconds
+  Import took 0.015937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.008397 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Effects/Hog Damage.asset
+  artifactKey: Guid(f9c2cf4740b2318449da9b25626d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Hog/Abilities/Effects/Hog Damage.asset using Guid(f9c2cf4740b2318449da9b25626d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2514e418420dad57bea610a04fc86a13') in 0.008765 seconds
+  Import took 0.011553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 659.408510 seconds.
+  path: Assets/_Game/[0] Scripts/ScriptableObjects/Targetting
+  artifactKey: Guid(f2be3e21b7275da4ca72c5a5f72c19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Targetting using Guid(f2be3e21b7275da4ca72c5a5f72c19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb11923051c384f4416c662fb75d1949') in 0.085314 seconds
+  Import took 0.089299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.825536 seconds.
+  path: Assets/_Game/[0] Scripts/ScriptableObjects/Targetting/Targetting.cs
+  artifactKey: Guid(f24af1dd6b0c8c141aadeaa69d599cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Targetting/Targetting.cs using Guid(f24af1dd6b0c8c141aadeaa69d599cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3071ac01f94a15c0ce6cafb1a156c12') in 0.035822 seconds
+  Import took 0.039220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.458789 seconds.
+  path: Assets/_Game/[0] Scripts/ScriptableObjects/Targetting/Targetting.cs
+  artifactKey: Guid(f24af1dd6b0c8c141aadeaa69d599cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Targetting/Targetting.cs using Guid(f24af1dd6b0c8c141aadeaa69d599cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f535e967ed3b597ba3c142bbaa4af5ca') in 0.004366 seconds
+  Import took 0.007371 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007959 seconds.
+Registered in 0.006140 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.2 MB.
-System memory in use after: 66.3 MB.
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 1.955500 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.052800 ms MarkObjects: 1.695500 ms  DeleteObjects: 0.056500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 389.999379 seconds.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/HeroData.cs
-  artifactKey: Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/Heroes/HeroData.cs using Guid(4935ed5e00ab4a84f993fe4f451b1247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de05149b315fdb01dfcf9fbfb9277b3') in 0.010243 seconds
-  Import took 0.031098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.303206 seconds.
-  path: Assets/_Game/Models/Hog.fbx
-  artifactKey: Guid(abdba0e445e181144b250830ff6bfab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/Models/Hog.fbx using Guid(abdba0e445e181144b250830ff6bfab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e35ba16ebfb6d51e26539767a9b3def') in 0.534512 seconds
-  Import took 0.557689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.233372 seconds.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/BattleData.cs
-  artifactKey: Guid(52a7b15a57420ee438e8906e71ffec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/BattleData.cs using Guid(52a7b15a57420ee438e8906e71ffec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31010118147c36ff5775b78c199aa081') in 0.010757 seconds
-  Import took 0.145405 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.071500 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.790900 ms  DeleteObjects: 0.065900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008513 seconds.
+Registered in 0.007687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 1.892900 ms (FindLiveObjects: 0.154500 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.626500 ms  DeleteObjects: 0.055800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1943.620452 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif
+  artifactKey: Guid(8486be9d6e9ba244da9b554260e48c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif using Guid(8486be9d6e9ba244da9b554260e48c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6333fbb932f72d2c27b04e827c810a5e') in 0.012386 seconds
+  Import took 0.015850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.365732 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Skif.asset
+  artifactKey: Guid(dc49188f414d4ea4ba144f2f2d90a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Skif.asset using Guid(dc49188f414d4ea4ba144f2f2d90a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6af6a255f31b07792fbcd7dc153797') in 0.021541 seconds
+  Import took 0.025856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16706.434583 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities
+  artifactKey: Guid(ef0a949736f65c049b02b0b829af4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities using Guid(ef0a949736f65c049b02b0b829af4fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf538b1fea1d879ae6a77c785d3fc6b') in 0.009526 seconds
+  Import took 0.012716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.560009 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream
+  artifactKey: Guid(6b70d55867e05fa4b86660de22654f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream using Guid(6b70d55867e05fa4b86660de22654f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd87777230f706f96d64076b24b1a03') in 0.008974 seconds
+  Import took 0.011840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.447287 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Skif Scream.asset
+  artifactKey: Guid(98300c002ce2d35458a583be58500d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Skif Scream.asset using Guid(98300c002ce2d35458a583be58500d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051845751a376d66a8b0dd991718b01b') in 0.010693 seconds
+  Import took 0.013899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.584703 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects
+  artifactKey: Guid(c2bd0629c0346a540841770b6b877af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects using Guid(c2bd0629c0346a540841770b6b877af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870b6a6ae31c2f2765c72dd31fa9c363') in 0.008960 seconds
+  Import took 0.012233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.667446 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects/Scream Damage.asset
+  artifactKey: Guid(0bbeff2d93b09c94ebfa5acb8657be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects/Scream Damage.asset using Guid(0bbeff2d93b09c94ebfa5acb8657be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce151a85bef0a2bb7cf9e373db691b31') in 0.009386 seconds
+  Import took 0.012387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.707077 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects/Scream Resist.asset
+  artifactKey: Guid(41bb1c1e831c529468b6701f056d3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Skif/Abilities/Scream/Effects/Scream Resist.asset using Guid(41bb1c1e831c529468b6701f056d3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb02b09e687cb1b5eb691200b7d89b9') in 0.010607 seconds
+  Import took 0.013882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.661996 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf
+  artifactKey: Guid(d3a616a3a0c625a4fa8ccf03de471680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf using Guid(d3a616a3a0c625a4fa8ccf03de471680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cce19d25c303112f0ae55a0220d7ee') in 0.009031 seconds
+  Import took 0.011860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.041089 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Цщда.asset
+  artifactKey: Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Цщда.asset using Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006c88a97513622e612223d4b186db63') in 0.009955 seconds
+  Import took 0.012865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.381122 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Wolf.asset
+  artifactKey: Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Wolf.asset using Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273d8d4f6028d56faf600a71f822fbac') in 0.005683 seconds
+  Import took 0.008603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.909509 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities
+  artifactKey: Guid(a7429e66d226bd147b876fc8b7292425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities using Guid(a7429e66d226bd147b876fc8b7292425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a35f8b845f8ec814c9503d9a0cc779') in 0.004174 seconds
+  Import took 0.007813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.580125 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite
+  artifactKey: Guid(dea9021af3206ca41b6444948a7bbc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite using Guid(dea9021af3206ca41b6444948a7bbc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e3926b0c2348f53f039bacedf243f0') in 0.008755 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.023568 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Wolf Bite.asset
+  artifactKey: Guid(0e835d45e365b24458d16601a82eb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Wolf Bite.asset using Guid(0e835d45e365b24458d16601a82eb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1acc18a6d97cd37d9b795c55db7f5c') in 0.009624 seconds
+  Import took 0.012594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.668138 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Effects
+  artifactKey: Guid(30cc016ef90709242beef7e73b9856f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Effects using Guid(30cc016ef90709242beef7e73b9856f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c287695b6b09514a74d0c713a059222') in 0.004528 seconds
+  Import took 0.007935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.665648 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Effects/Bite Damage.asset
+  artifactKey: Guid(b49a6a0568f040347b49d276440692f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Wolf/Abilities/Bite/Effects/Bite Damage.asset using Guid(b49a6a0568f040347b49d276440692f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b54825114cad44ab2ec39dff93ccdd7') in 0.009852 seconds
+  Import took 0.012894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.837393 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Bear
+  artifactKey: Guid(7d7c91fa037909d40a9d94be51d042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Bear using Guid(7d7c91fa037909d40a9d94be51d042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6955513feab058ca3a778dcf390afdf4') in 0.008752 seconds
+  Import took 0.011968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.860538 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Bear/Bear.asset
+  artifactKey: Guid(688c87b0c3c3a9f42ad8cfdf7963ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/Bear/Bear.asset using Guid(688c87b0c3c3a9f42ad8cfdf7963ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e0f3ba2ea5bba94e2f8952f9fd4752') in 0.004621 seconds
+  Import took 0.008045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.384376 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog
+  artifactKey: Guid(3355125184fa15e46a61aabf4a202900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog using Guid(3355125184fa15e46a61aabf4a202900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9318cc3e3f3c679d751b6266f3357e') in 0.009175 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.465120 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif
+  artifactKey: Guid(8486be9d6e9ba244da9b554260e48c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif using Guid(8486be9d6e9ba244da9b554260e48c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e4a0dd0097bab8093aff7766e2d94') in 0.009530 seconds
+  Import took 0.012760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.685714 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf
+  artifactKey: Guid(d3a616a3a0c625a4fa8ccf03de471680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf using Guid(d3a616a3a0c625a4fa8ccf03de471680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7316032dff546344c1f2fdcd0b45f9d0') in 0.008509 seconds
+  Import took 0.011584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.845416 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear
+  artifactKey: Guid(7d7c91fa037909d40a9d94be51d042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear using Guid(7d7c91fa037909d40a9d94be51d042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe24cdeb3f7f937cfcb3c423019c046a') in 0.008079 seconds
+  Import took 0.010842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.845263 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities
+  artifactKey: Guid(b8f9b6ff11b266a4e8751e0a5800b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities using Guid(b8f9b6ff11b266a4e8751e0a5800b2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26026114e824ac0546cb29de0183f65e') in 0.003085 seconds
+  Import took 0.005798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.167384 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle
+  artifactKey: Guid(737dbcfcd6baae341b718bb26abf19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle using Guid(737dbcfcd6baae341b718bb26abf19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb37b1be97bc08af45e4c983a064986') in 0.006377 seconds
+  Import took 0.009222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.090858 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Иуфк Ефслду.asset
+  artifactKey: Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Иуфк Ефслду.asset using Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cc27b6dd7dae06b5098172772444f0') in 0.007141 seconds
+  Import took 0.010414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.822919 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Bear Tackle.asset
+  artifactKey: Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Bear Tackle.asset using Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40028416337b18e914e0745b5ff3e4fb') in 0.003441 seconds
+  Import took 0.006122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.286327 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects
+  artifactKey: Guid(8d08ecfc82dab064f8891b6665c2a57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects using Guid(8d08ecfc82dab064f8891b6665c2a57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b6ba67069b9c5701582347c1945f78') in 0.002780 seconds
+  Import took 0.005562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.700412 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects/Bear Tackle Damage.asset
+  artifactKey: Guid(14eff25ad8d60814482229fd25c6aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects/Bear Tackle Damage.asset using Guid(14eff25ad8d60814482229fd25c6aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c32a921718edd05005a4e95266ac08b') in 0.008228 seconds
+  Import took 0.011844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.744522 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider
+  artifactKey: Guid(cb000bb2b70636c45a6e3ee2dcbd628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider using Guid(cb000bb2b70636c45a6e3ee2dcbd628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9a7ad2594541f4d0ec7a5f552eafe1') in 0.006701 seconds
+  Import took 0.017393 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.327578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 2.470100 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.082300 ms  DeleteObjects: 0.077200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.179400 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.917800 ms  DeleteObjects: 0.066200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.920100 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.639600 ms  DeleteObjects: 0.061700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008172 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.076 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.983800 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.724200 ms  DeleteObjects: 0.056800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.857999 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset
+  artifactKey: Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset using Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185efc4856f8e6df3babbf2376ffdc2') in 0.020057 seconds
+  Import took 0.023006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.568956 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities
+  artifactKey: Guid(71caca8fb56891d48b23ab41b3d32fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities using Guid(71caca8fb56891d48b23ab41b3d32fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6983b5c11d868aeee2b04dd25f28c381') in 0.006541 seconds
+  Import took 0.010435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.370185 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web
+  artifactKey: Guid(78435a5f486642149ac2dce4aaa7a04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web using Guid(78435a5f486642149ac2dce4aaa7a04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0745be35f19e90c6dceef9dea7b9e176') in 0.007267 seconds
+  Import took 0.010215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.121239 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/New Folder
+  artifactKey: Guid(f1403f81b0b4b5c428be0e8cf6ee7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/New Folder using Guid(f1403f81b0b4b5c428be0e8cf6ee7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74455939ffb263a4aa5e176fe2eedd90') in 0.011042 seconds
+  Import took 0.013993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.070097 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit
+  artifactKey: Guid(f1403f81b0b4b5c428be0e8cf6ee7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit using Guid(f1403f81b0b4b5c428be0e8cf6ee7c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c392097d1a2efdffac9676b3f807c3') in 0.007408 seconds
+  Import took 0.010103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.464045 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset
+  artifactKey: Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset using Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a617524ae3303d04d1f01b55f19401') in 0.003945 seconds
+  Import took 0.006775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset
+  artifactKey: Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset using Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a617524ae3303d04d1f01b55f19401') in 0.002929 seconds
+  Import took 0.005765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.054884 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects
+  artifactKey: Guid(8212b46b34176f34398acdc78fa925a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects using Guid(8212b46b34176f34398acdc78fa925a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64213ad55de8b6c7d4ab35bec75bb414') in 0.002811 seconds
+  Import took 0.005496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.758899 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Damage.asset
+  artifactKey: Guid(8da860384183e4d4ca693d01b35a6723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Damage.asset using Guid(8da860384183e4d4ca693d01b35a6723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714a5751f9bddb04a0fe382c91edd914') in 0.007776 seconds
+  Import took 0.010823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.110688 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Entangle.asset
+  artifactKey: Guid(d86efead01a6a7942b4e099dbe807062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Entangle.asset using Guid(d86efead01a6a7942b4e099dbe807062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ac9bcadd9b7b948a405a7d1cf4d568') in 0.007866 seconds
+  Import took 0.011303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.451224 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Damage.asset
+  artifactKey: Guid(8da860384183e4d4ca693d01b35a6723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Damage.asset using Guid(8da860384183e4d4ca693d01b35a6723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3272556e6dc76df5c003ff7966317ef') in 0.013431 seconds
+  Import took 0.016280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Entangle.asset
+  artifactKey: Guid(d86efead01a6a7942b4e099dbe807062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Effects/Sticky Web Entangle.asset using Guid(d86efead01a6a7942b4e099dbe807062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cded84b045496db929c1b5460c01262') in 0.004408 seconds
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.6 MB.
 System memory in use after: 69.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1939.
-Total: 14.673400 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.053600 ms MarkObjects: 14.411200 ms  DeleteObjects: 0.063100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.668700 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.067400 ms  DeleteObjects: 0.068000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1398.250687 seconds.
-  path: Assets/_Game/[0] Scripts/ScriptableObjects/BattleData.cs
-  artifactKey: Guid(52a7b15a57420ee438e8906e71ffec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Game/[0] Scripts/ScriptableObjects/BattleData.cs using Guid(52a7b15a57420ee438e8906e71ffec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfe747f200f84925e93d9adb8455700') in 0.005203 seconds
-  Import took 0.026978 seconds .
+  Time since last request: 237.372497 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Hog.asset
+  artifactKey: Guid(167467b45a29dc641bf7486588f0423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Hog.asset using Guid(167467b45a29dc641bf7486588f0423b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27801de6dfeb9bd9c68969b4e70de78c') in 0.033228 seconds
+  Import took 0.036256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.171237 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Abilities/Hog Tackle.asset
+  artifactKey: Guid(df50d04ae9675e0408adb03286900d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Abilities/Hog Tackle.asset using Guid(df50d04ae9675e0408adb03286900d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854c88b8731422dcbd24989ee02cfcfc') in 0.010651 seconds
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124028 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Abilities/Effects/Hog Damage.asset
+  artifactKey: Guid(f9c2cf4740b2318449da9b25626d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/01 Hog/Abilities/Effects/Hog Damage.asset using Guid(f9c2cf4740b2318449da9b25626d2bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044615a166e4c01ef7831c1658a93d21') in 0.008255 seconds
+  Import took 0.011455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.804290 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Skif.asset
+  artifactKey: Guid(dc49188f414d4ea4ba144f2f2d90a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Skif.asset using Guid(dc49188f414d4ea4ba144f2f2d90a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1866da76e5120e8e99957f6c43c4b88e') in 0.010977 seconds
+  Import took 0.014430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421239 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Skif Scream.asset
+  artifactKey: Guid(98300c002ce2d35458a583be58500d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Skif Scream.asset using Guid(98300c002ce2d35458a583be58500d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73835c98ee11a3df85e32cdf1eefe3c5') in 0.006016 seconds
+  Import took 0.009324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709245 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Effects/Scream Damage.asset
+  artifactKey: Guid(0bbeff2d93b09c94ebfa5acb8657be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Effects/Scream Damage.asset using Guid(0bbeff2d93b09c94ebfa5acb8657be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c8c5afc91b26fdee2764ac44311693') in 0.004030 seconds
+  Import took 0.006916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Effects/Scream Resist.asset
+  artifactKey: Guid(41bb1c1e831c529468b6701f056d3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/02 Skif/Abilities/Scream/Effects/Scream Resist.asset using Guid(41bb1c1e831c529468b6701f056d3254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1ef81e574487d25732257504d18f5a') in 0.007574 seconds
+  Import took 0.010101 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 2.514000 ms (FindLiveObjects: 0.201400 ms CreateObjectMapping: 0.112200 ms MarkObjects: 2.139200 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 2.119700 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.077900 ms MarkObjects: 1.792300 ms  DeleteObjects: 0.061900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.934399 seconds.
+  path: Assets/_Game/ScriptableObjects/[TARGETTING]/Parent.asset
+  artifactKey: Guid(ec3527da3ac26ab4ea51e409c4f15097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[TARGETTING]/Parent.asset using Guid(ec3527da3ac26ab4ea51e409c4f15097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9760712a8fdeeed3981764636bab38b6') in 0.018645 seconds
+  Import took 0.021614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.983167 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Wolf.asset
+  artifactKey: Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Wolf.asset using Guid(c0569d0c682dd6546a61f107584224cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314272a831c40184b6ddf54df9c828a3') in 0.007465 seconds
+  Import took 0.011043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372255 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Abilities/Bite/Wolf Bite.asset
+  artifactKey: Guid(0e835d45e365b24458d16601a82eb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Abilities/Bite/Wolf Bite.asset using Guid(0e835d45e365b24458d16601a82eb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f0e82e379d239e65d29e4a0783e87') in 0.009647 seconds
+  Import took 0.012998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.019369 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Abilities/Bite/Effects/Bite Damage.asset
+  artifactKey: Guid(b49a6a0568f040347b49d276440692f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/03 Wolf/Abilities/Bite/Effects/Bite Damage.asset using Guid(b49a6a0568f040347b49d276440692f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa49a288032ce08ee8fee3ee008b349b') in 0.005069 seconds
+  Import took 0.009361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.114030 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Bear.asset
+  artifactKey: Guid(688c87b0c3c3a9f42ad8cfdf7963ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Bear.asset using Guid(688c87b0c3c3a9f42ad8cfdf7963ceb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b55d1eb32abfcdac0fd0b05b9885a3') in 0.008570 seconds
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.312255 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Bear Tackle.asset
+  artifactKey: Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Bear Tackle.asset using Guid(9a7025f3205611e4c81f1dbc585a5e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268f7e34d2b548c9bc05676067bff84d') in 0.007894 seconds
+  Import took 0.011058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.653925 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects/Bear Tackle Damage.asset
+  artifactKey: Guid(14eff25ad8d60814482229fd25c6aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/04 Bear/Abilities/Bear Tackle/Effects/Bear Tackle Damage.asset using Guid(14eff25ad8d60814482229fd25c6aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cccb70d8406fb03f10eb587a7e54c7b') in 0.016327 seconds
+  Import took 0.021406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.375648 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset
+  artifactKey: Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset using Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb6790d884a43a4ae229495d7e9a625') in 0.007191 seconds
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.098932 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset
+  artifactKey: Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Sticky Web/Sticky Web.asset using Guid(c21d5f803e7aa194dbef15e8986974fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce45d6ebc80160603590d3a2ef014feb') in 0.013249 seconds
+  Import took 0.017035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.525081 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset
+  artifactKey: Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset using Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55fda6d594a6506e781267d8132d853') in 0.003181 seconds
+  Import took 0.006211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002384 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset
+  artifactKey: Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset using Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55fda6d594a6506e781267d8132d853') in 0.003159 seconds
+  Import took 0.006152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.553613 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects
+  artifactKey: Guid(e2c9855b19ae816438db990343072378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects using Guid(e2c9855b19ae816438db990343072378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffa0083bb0dedfadeff34a53ef8e1fd') in 0.003034 seconds
+  Import took 0.006096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.027647 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Damage.asset
+  artifactKey: Guid(5a60e875182b79d4da54e590db7f817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Damage.asset using Guid(5a60e875182b79d4da54e590db7f817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d5346e7fb09aae70ae6f87d5caeb33') in 0.007009 seconds
+  Import took 0.010355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.320108 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Periodic Damage.asset
+  artifactKey: Guid(1f7e6a8ddab022e429822a1cef0ea3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Periodic Damage.asset using Guid(1f7e6a8ddab022e429822a1cef0ea3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce8431571968ce5432c2abdfaf846ff') in 0.007478 seconds
+  Import took 0.010244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.229004 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Damage.asset
+  artifactKey: Guid(5a60e875182b79d4da54e590db7f817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Damage.asset using Guid(5a60e875182b79d4da54e590db7f817b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9390ab209207088fc08645d935332808') in 0.003712 seconds
+  Import took 0.006624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Periodic Damage.asset
+  artifactKey: Guid(1f7e6a8ddab022e429822a1cef0ea3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Effects/Poisoned Spit Periodic Damage.asset using Guid(1f7e6a8ddab022e429822a1cef0ea3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e40300a42ce1d83cc88af12930348d') in 0.004220 seconds
+  Import took 0.007375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639880 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset
+  artifactKey: Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Abilities/Poisoned Spit/Poisoned Spit.asset using Guid(838bb8fab12b52444b42ef59d1bd0730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0d4edff638d16af2e9e696adf7bedd') in 0.003319 seconds
+  Import took 0.005949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.235561 seconds.
+  path: Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset
+  artifactKey: Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/ScriptableObjects/[CARDS]/Creatures/05 Spider/Spider.asset using Guid(e1cb1f6763e1eba498e3311ff17caf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba00a817901be33f98143d351828d92') in 0.010550 seconds
+  Import took 0.013452 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

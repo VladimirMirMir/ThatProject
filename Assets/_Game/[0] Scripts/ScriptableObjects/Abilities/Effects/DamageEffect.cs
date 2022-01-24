@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Damage Effect", menuName = "ScriptableObject/Ability Effects/Damage Effect")]
+[CreateAssetMenu(fileName = "New Damage Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Damage Effect")]
 public class DamageEffect : AbilityEffect
 {
     public DamageData damage;

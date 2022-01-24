@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Curse Effect", menuName = "ScriptableObject/Ability Effects/Curse Effect")]
+[CreateAssetMenu(fileName = "New Curse Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Curse Effect")]
 public class CurseEffect : AbilityEffect
 {
     public DamageData onCastDamage;

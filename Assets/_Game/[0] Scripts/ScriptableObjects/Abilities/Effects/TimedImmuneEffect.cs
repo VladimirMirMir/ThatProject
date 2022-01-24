@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Timed Immune Effect", menuName = "ScriptableObject/Ability Effects/Timed Immune Effect")]
+[CreateAssetMenu(fileName = "New Timed Immune Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Timed Immune Effect")]
 public class TimedImmuneEffect : AbilityEffect
 {
     public DamageType type;

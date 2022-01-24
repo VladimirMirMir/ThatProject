@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Timed Resist Effect", menuName = "ScriptableObject/Ability Effects/Timed Resist Effect")]
+[CreateAssetMenu(fileName = "New Timed Resist Effect", menuName = "ScriptableObject/Ability Data/Ability Effects/Timed Resist Effect")]
 public class TimedResistEffect : AbilityEffect
 {
     public DamageType type;
