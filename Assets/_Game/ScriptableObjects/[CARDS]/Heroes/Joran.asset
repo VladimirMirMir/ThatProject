@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4935ed5e00ab4a84f993fe4f451b1247, type: 3}
+  m_Name: Joran
+  m_EditorClassIdentifier: 
+  cardID: Joran
+  cardName: Joran
+  cardLongDescription: 
+  cardJokeDescription: 
+  cardImage: {fileID: 0}
+  heroStats:
+    healthPoints: 0
+    movementPoints: 0
+    creatureType: {fileID: 0}
+    vulnerabilities: []
+    resistances: []
+    immunities: []
+    abilities: []
+  prefab: {fileID: 5820617401168637102, guid: 723077c244bc3e2428109cc5d9d1c6ee, type: 3}
+  pawn: {fileID: 8866820752556975495, guid: 9f8da17486075a44494be08a12cb4f11, type: 3}

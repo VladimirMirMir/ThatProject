@@ -16,12 +16,14 @@ MonoBehaviour:
   cardLongDescription: Veselo po polyu begaet kabanchik
   cardJokeDescription: Hryuuu!
   cardImage: {fileID: 0}
-  creatureStats:
-    healthPointsMaximum: 3
+  entityStats:
+    healthPoints: 3
     movementPoints: 2
-    creatureType: {fileID: 0}
+    creatureType: {fileID: 11400000, guid: 788adb23a7a83884fa22a1d2c94e3117, type: 2}
     vulnerabilities: []
     resistances: []
     immunities: []
-    abilities: []
+    abilities:
+    - {fileID: 11400000, guid: df50d04ae9675e0408adb03286900d20, type: 2}
+    - {fileID: 11400000, guid: 29236417996cc2c42995f75ce36a8841, type: 2}
   prefab: {fileID: 7980914714284877706, guid: d82ece8da09f56f488cdfccdaa0a5524, type: 3}

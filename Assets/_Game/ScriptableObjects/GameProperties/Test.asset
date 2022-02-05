@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 654801340fcb3774a916fee690981e9a, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  showDebug: 1
   connectionPrefab: {fileID: 2599619950344399233, guid: c54a8ad0e82145243b2334abae23764f, type: 3}
-  playerPawnPrefab: {fileID: 1542061137171543957, guid: 40b372fc3e2266348ad9ae3e5472d123, type: 3}
-  playerPawnSpeed: 5
+  debug: 1
+  debuggedMap: {fileID: 5520171150880161178, guid: 5f32278a2ff51544faea8da1c899a94d, type: 3}
+  debugPlayerPawnPrefab: {fileID: 8866820752556975495, guid: 9f8da17486075a44494be08a12cb4f11, type: 3}
+  playerPawnSpeed: 3.5
   camSpeed: 5
+  pawnRotationSpeed: 200
+  pawnLiftHeight: 0.7

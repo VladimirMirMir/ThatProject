@@ -27,16 +27,56 @@ public class PlayerPawn : MonoBehaviour
 
     public static void MoveTo(Node node)
     {
-        s_instance.StartCoroutine(s_instance.MoveRoutine(node.transform.position));
+        s_instance.StartCoroutine(s_instance.AnimateRoutine(node.transform.position));
+    }
+
+    private IEnumerator AnimateRoutine(Vector3 endPoint)
+    {
+        yield return MoveUpRoutine();
+        yield return RotateRoutine(endPoint);
+        yield return MoveRoutine(endPoint);
+        yield return MoveDownRoutine();
+    }
+
+    private IEnumerator MoveUpRoutine()
+    {
+        while(s_transform.position.y < GameManager.Properties.pawnLiftHeight)
+        {
+            s_transform.position += Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
+            yield return new WaitForEndOfFrame();
+        }
+        s_transform.position = s_transform.position.WithY(GameManager.Properties.pawnLiftHeight);
+    }
+
+    private IEnumerator RotateRoutine(Vector3 endPoint)
+    {
+        Quaternion endRot = Quaternion.LookRotation(endPoint.WithY(s_transform.position.y) - s_transform.position);
+        while(s_transform.rotation != endRot)
+        {
+            s_transform.rotation = Quaternion.RotateTowards(s_transform.rotation, endRot, Time.deltaTime * GameManager.Properties.pawnRotationSpeed);
+            yield return new WaitForEndOfFrame();
+        }
     }
 
     private IEnumerator MoveRoutine(Vector3 endPoint)
     {
-        s_transform.forward = endPoint - s_transform.position;
-        while (s_transform.position != endPoint)
+        while (s_transform.position != endPoint.WithY(s_transform.position.y))
         {
-            s_transform.position = Vector3.MoveTowards(s_transform.position, endPoint, Time.deltaTime * GameManager.Properties.playerPawnSpeed);
+            s_transform.position += s_transform.forward * GameManager.Properties.playerPawnSpeed * Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+            if (Vector3.Distance(s_transform.position, endPoint.WithY(s_transform.position.y)) < 0.1f)
+                break;
+        }
+        s_transform.position = endPoint.WithY(s_transform.position.y);
+    }
+
+    private IEnumerator MoveDownRoutine()
+    {
+        while (s_transform.position.y > 0)
+        {
+            s_transform.position -= Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
             yield return new WaitForEndOfFrame();
         }
+        s_transform.position = s_transform.position.WithY(0);
     }
 }

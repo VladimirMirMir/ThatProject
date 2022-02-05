@@ -3,7 +3,7 @@
 [CreateAssetMenu(fileName = "New Creature", menuName = "ScriptableObject/Card/Creature")]
 public class CreatureCard : Card
 {
-    public CreatureStats creatureStats;
+    public EntityStats entityStats;
     public GameObject prefab;
 
     public override void Play()

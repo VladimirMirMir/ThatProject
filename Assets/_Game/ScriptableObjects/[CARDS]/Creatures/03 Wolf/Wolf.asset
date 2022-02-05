@@ -16,8 +16,8 @@ MonoBehaviour:
   cardLongDescription: 
   cardJokeDescription: 
   cardImage: {fileID: 0}
-  creatureStats:
-    healthPointsMaximum: 4
+  entityStats:
+    healthPoints: 4
     movementPoints: 3
     creatureType: {fileID: 11400000, guid: 788adb23a7a83884fa22a1d2c94e3117, type: 2}
     vulnerabilities: []
@@ -25,4 +25,4 @@ MonoBehaviour:
     immunities: []
     abilities:
     - {fileID: 11400000, guid: 0e835d45e365b24458d16601a82eb29a, type: 2}
-  prefab: {fileID: 0}
+  prefab: {fileID: 1686901153523854810, guid: d3725b8af08029649b42662627b78184, type: 3}

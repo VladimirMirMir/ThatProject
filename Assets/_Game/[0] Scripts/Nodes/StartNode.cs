@@ -9,7 +9,7 @@ public class StartNode : Node
 
     public override void OnPlayerExit()
     {
-        if (GameManager.Properties.showDebug)
+        if (GameManager.Properties.debug)
             print("Player 've leaved StartNode!");
     }
 }
