@@ -17,7 +17,7 @@ public class PlayerDeckManager : MonoBehaviour
     {
         get
         {
-            if (GameManager.Properties.debug)
+            if (GameManager.Properties.debug && (GameManager.Properties.debugPlayerPawnPrefab != null))
                 return GameManager.Properties.debugPlayerPawnPrefab;
             return s_instance._hero.pawn;
         }

@@ -6,6 +6,7 @@ public class PlayerPawn : MonoBehaviour
 {
     private static PlayerPawn s_instance;
     private static Transform s_transform;
+    private static Transform s_visual;
 
     private BoxCollider _collider;
     private Rigidbody _rigidBody;
@@ -14,6 +15,7 @@ public class PlayerPawn : MonoBehaviour
     {
         s_instance = this;
         s_transform = transform;
+        s_visual = s_transform.GetChild(0);
         _collider = GetComponent<BoxCollider>();
         _collider.isTrigger = true;
         _rigidBody = GetComponent<Rigidbody>();
@@ -40,12 +42,12 @@ public class PlayerPawn : MonoBehaviour
 
     private IEnumerator MoveUpRoutine()
     {
-        while(s_transform.position.y < GameManager.Properties.pawnLiftHeight)
+        while(s_visual.position.y < GameManager.Properties.pawnLiftHeight)
         {
-            s_transform.position += Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
+            s_visual.position += Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
             yield return new WaitForEndOfFrame();
         }
-        s_transform.position = s_transform.position.WithY(GameManager.Properties.pawnLiftHeight);
+        s_visual.position = s_visual.position.WithY(GameManager.Properties.pawnLiftHeight);
     }
 
     private IEnumerator RotateRoutine(Vector3 endPoint)
@@ -72,11 +74,11 @@ public class PlayerPawn : MonoBehaviour
 
     private IEnumerator MoveDownRoutine()
     {
-        while (s_transform.position.y > 0)
+        while (s_visual.position.y > 0)
         {
-            s_transform.position -= Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
+            s_visual.position -= Vector3.up * Time.deltaTime * GameManager.Properties.playerPawnSpeed;
             yield return new WaitForEndOfFrame();
         }
-        s_transform.position = s_transform.position.WithY(0);
+        s_visual.position = s_visual.position.WithY(0);
     }
 }

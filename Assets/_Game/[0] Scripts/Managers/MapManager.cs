@@ -14,8 +14,8 @@ public class MapManager : MonoBehaviour
 
     private void Start()
     {
-        if (GameManager.Properties.debug && (GameManager.Properties.debuggedMap != null))
-            ChangeTravelMapTo(GameManager.Properties.debuggedMap);
+        if (GameManager.Properties.debug && (GameManager.Properties.debuggedTravelMap != null))
+            ChangeTravelMapTo(GameManager.Properties.debuggedTravelMap);
     }
 
     public static void ChangeTravelMapTo(TravelMapInfo travelMap)

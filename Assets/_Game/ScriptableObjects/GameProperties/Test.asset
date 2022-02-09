@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectionPrefab: {fileID: 2599619950344399233, guid: c54a8ad0e82145243b2334abae23764f, type: 3}
   debug: 1
-  debuggedMap: {fileID: 5520171150880161178, guid: 5f32278a2ff51544faea8da1c899a94d, type: 3}
+  debuggedTravelMap: {fileID: 5520171150880161178, guid: 5f32278a2ff51544faea8da1c899a94d, type: 3}
+  debuggedBattleMap: {fileID: 0}
   debugPlayerPawnPrefab: {fileID: 8866820752556975495, guid: 9f8da17486075a44494be08a12cb4f11, type: 3}
   playerPawnSpeed: 3.5
   camSpeed: 5

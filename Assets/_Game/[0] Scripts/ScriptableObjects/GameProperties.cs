@@ -8,7 +8,8 @@ public class GameProperties : ScriptableObject
 
     [Header("Debug")]
     public bool debug;
-    public TravelMapInfo debuggedMap;
+    public TravelMapInfo debuggedTravelMap;
+    public BattleMapInfo debuggedBattleMap;
     public PlayerPawn debugPlayerPawnPrefab;
 
     [Header("Gameplay")]
