@@ -7,5 +7,10 @@ public abstract class Card : ScriptableObject
     public string cardJokeDescription;
     public Sprite cardImage;
 
+    public void OnValidate()
+    {
+        cardName = this.name;
+    }
+
     public abstract void Play();
 }
