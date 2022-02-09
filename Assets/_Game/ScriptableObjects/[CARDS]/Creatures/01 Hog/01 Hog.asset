@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684f7802377a2714ab1a090e97d32660, type: 3}
   m_Name: 01 Hog
   m_EditorClassIdentifier: 
-  cardName: 
+  cardName: 01 Hog
   cardLongDescription: 
   cardJokeDescription: 
   cardImage: {fileID: 0}
   entityStats:
-    healthPoints: 0
-    movementPoints: 0
-    creatureType: {fileID: 0}
+    healthPoints: 3
+    movementPoints: 2
+    creatureType: {fileID: 11400000, guid: 788adb23a7a83884fa22a1d2c94e3117, type: 2}
     vulnerabilities: []
     resistances: []
     immunities: []
-    abilities: []
-  prefab: {fileID: 0}
+    abilities:
+    - {fileID: 11400000, guid: 16b016029e6069f4b9b0c3b93219d7c1, type: 2}
+    - {fileID: 11400000, guid: 8129b69a18e0d414697c4c90d28323fc, type: 2}
+  prefab: {fileID: 7980914714284877706, guid: d82ece8da09f56f488cdfccdaa0a5524, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b14d886e923fe347b1913c2b3df2488, type: 3}
   m_Name: Hog01Damage
   m_EditorClassIdentifier: 
-  targetting: {fileID: 0}
+  targetting: {fileID: 11400000, guid: ec3527da3ac26ab4ea51e409c4f15097, type: 2}
   damage:
-    damageAmount: 1
-    damageType: {fileID: 0}
+    damageAmount: 2
+    damageType: {fileID: 11400000, guid: 19f6da0456cdb794cb9d4d9fa7c52fcd, type: 2}
